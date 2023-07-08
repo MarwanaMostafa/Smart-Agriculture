@@ -1,0 +1,17 @@
+# CNN requirements
+# Usage: pip install -r requirements.txt
+# Base ------------------------------------------------------------------------
+
+numpy==1.23.5
+matplotlib>=3.3
+opencv-python
+Pillow==.0.
+
+# Extras ----------------------------------------------------------------------
+# ipython  # interactive notebook
+# mss  # screenshots
+# albumentations>=1.0.3
+# pycocotools>=2.0.6  # COCO mAP
+# Model ---------------------------------------------
+tensorflow==2.6.0
+tensorflow-gpu=2.6.0
