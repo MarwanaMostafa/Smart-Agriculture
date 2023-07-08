@@ -1,0 +1,44 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '2.7.10'
+    id 'io.spring.dependency-management' version '1.0.15.RELEASE'
+}
+
+group = 'com.gp'
+version = '0.0.1-SNAPSHOT'
+
+java {
+    sourceCompatibility = '17'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'org.springframework.security:spring-security-test'
+    runtimeOnly 'org.postgresql:postgresql:42.5.4'
+
+
+
+    implementation 'org.jetbrains:annotations:24.0.1'
+    implementation 'org.springframework.boot:spring-boot-starter-actuator:2.7.10'
+    implementation 'org.springframework.boot:spring-boot-starter-validation:2.7.10'
+
+    implementation group: 'org.openpnp', name: 'opencv', version: '4.5.1-2'
+
+
+    implementation 'org.springframework.boot:spring-boot-starter-mail:2.7.10'
+    implementation 'org.projectlombok:lombok:1.18.26'
+    implementation 'javax.mail:mail:1.4.7'
+    implementation 'org.hibernate:hibernate-entitymanager:5.6.15.Final'
+
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
