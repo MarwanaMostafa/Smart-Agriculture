@@ -19,12 +19,29 @@
  in making informed decisions, optimizing their farming practices, and ultimately ensuring the health and productivity of their strawberry crops.
  
 # How to run 
-```
-sadfasdfasd
-sadf
-asdf
-asdfa
-sdf
-asdfasdf
-asdf
-```
+ - First Load image
+   ``` img_path = "PathImage"
+       img = image.load_img(img_path, target_size=(224, 224))
+    ```
+ - Second Preprocess the image
+   ``` img_array = image.img_to_array(img)
+       img_array = img_array / 255.0  # Normalize the image pixel values
+       input_img = np.expand_dims(img_array, axis=0)
+   ```
+ - Third Perform prediction on the image
+   ```predictions = model.predict(input_img)
+     class_names = list(train_generator.class_indices.keys())
+   ```
+ - Fourth  Get the index and confidence of the maximum confidence prediction
+   ```max_index = np.argmax(predictions[0])
+      max_confidence = predictions[0][max_index]
+      max_class_name = class_names[max_index]
+   ```
+ - Fifth Plot the image & Print the class and confidence below the image
+   ```fig, ax = plt.subplots()
+      ax.imshow(img)
+      ax.axis('off')
+      ax.text(0, 1.05, f"Class: {max_class_name}", transform=ax.transAxes, fontsize=12)
+      ax.text(0, 1.1, f"Confidence: {max_confidence:.2f}", transform=ax.transAxes, fontsize=12)
+      plt.show()
+  ```
