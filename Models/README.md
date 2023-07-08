@@ -27,8 +27,7 @@
        6. Upload an image to detect if there are diseases or not.
        7. Perform real-time detection to check a large part of the farm if needed.
 # Project Structure
-
-       ![Alt Text](Images/ProjectStructure.jpeg)
+  ![Alt Text](Models/Images/ProjectStructure.jpeg)
 
 
 
