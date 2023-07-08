@@ -9,11 +9,11 @@
        4.	Export earnings: Egypt is a significant exporter of agricultural products, including fruits, vegetables, and cotton. These exports generate important foreign exchange earnings for the country, helping to support its economy.
 
 # Our Solution
-our objective is to help farmers by early disease detection and not fully rely on agricultural guides by:
-        1. Detect plant diseases from images and videos with a high degree of accuracy.
-        2. Classify the detected diseases into specific categories based on their symptoms.
-        3. Provide farmers with information about the severity of the disease.
-        4. Provide them with a Video analysis session that let them know how much diseased plants are in their population.
-        5. Provide them with a history that allows them to check the analysis in the last session.
-        6. Provide a cost-effective solution that can be deployed in a variety of settings, including small-scale farms and large commercial operations.
-The ultimate goal of this project is to help farmers identify and manage plant diseases more effectively, leading to increased crop yields, reduced losses, and improved food security.
+  - our objective is to help farmers by early disease detection and not fully rely on agricultural guides by:
+       1. Detect plant diseases from images and videos with a high degree of accuracy.
+       2. Classify the detected diseases into specific categories based on their symptoms.
+       3. Provide farmers with information about the severity of the disease.
+       4. Provide them with a Video analysis session that let them know how much diseased plants are in their population.
+       5. Provide them with a history that allows them to check the analysis in the last session.
+       6. Provide a cost-effective solution that can be deployed in a variety of settings, including small-scale farms and large commercial operations.
+    The ultimate goal of this project is to help farmers identify and manage plant diseases more effectively, leading to increased crop yields, reduced losses, and improved food security.
