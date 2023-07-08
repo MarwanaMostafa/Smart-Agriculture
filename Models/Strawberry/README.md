@@ -57,6 +57,6 @@
  - To install dependencies for your project, you can utilize the command specified by your project's build system or package manager. This command is designed to handle the   
    installation process without requiring any additional effort or input from you. By running this command, the necessary dependencies will be automatically fetched and installed, 
    ensuring that your project has access to all the required libraries and packages. The command typically analyzes the dependencies specified in a configuration file.
- ```
- pip install requirments.txt
- ```
+   ```
+    pip install requirments.txt
+   ```
