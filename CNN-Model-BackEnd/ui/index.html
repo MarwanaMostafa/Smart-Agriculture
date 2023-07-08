@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Plant Disease Detection</title>
+    <style>
+        * {
+            background-color: #282c34;
+        }
+
+        html {
+            font-size: 62.5%;
+        }
+
+        body {
+            font-family: "Open Sans", "Helvetica Neue Light", "Helvetica Neue",
+            "Helvetica", "Arial", sans-serif;
+            font-size: 1.6rem;
+            color: #e8e9eb;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #e8e9eb;
+            margin-bottom: 1rem;
+            line-height: 1.1;
+        }
+
+        h1 {
+            font-size: 7rem;
+        }
+
+        h2 {
+            font-size: 4rem;
+        }
+
+        h3 {
+            font-size: 3rem;
+            font-weight: 500;
+        }
+
+        @media screen and (min-width: 1024px) {
+            body {
+                font-size: 1.8rem;
+            }
+
+            h1 {
+                font-size: 5rem;
+            }
+
+            h2 {
+                font-size: 4rem;
+            }
+
+            h3 {
+                font-size: 2.4rem;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            h1 {
+                font-size: 3rem;
+                text-align: center;
+            }
+        }
+
+        .container {
+            max-width: 1240px; /* 1 */
+            margin-left: auto; /* 2 */
+            margin-right: auto; /* 2 */
+            padding-left: 20px; /* 3 */
+            padding-right: 20px; /* 3 */
+            width: 100%; /* 1 */
+        }
+
+        .title_project {
+            text-align: center;
+        }
+
+        .img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
+        .form {
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        input[type="text"],
+        select {
+            width: 30%;
+            padding: 15px 15px;
+            border: 1px solid #e8e9eb;
+            border-radius: 5px;
+        }
+
+        #model {
+            color: #e8e9eb;
+        }
+
+        label {
+            padding: 12px 0px;
+        }
+
+        input[type="submit"] {
+            background-color: #e8e9eb;
+            color: black;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            align-self: center;
+        }
+
+        input[type="file"] {
+            padding-left: 50px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1 class="title_project">Plant Disease Detection [pepper, tomato, potato]</h1>
+    <img class="img" src="https://i.pinimg.com/564x/f7/d9/bb/f7d9bb94dd345814f502626bff075e48.jpg"
+         alt="farmer market"> </img>
+    <form class="form" action="/api/predictions" method="post" enctype="multipart/form-data">
+        <input type="file" id="image" name="image"/>
+        <br/><br/>
+        <input type="submit" value="Submit"/>
+    </form>
+</div>
+</body>
+</html>
