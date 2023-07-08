@@ -28,7 +28,13 @@
        7. Perform real-time detection to check a large part of the farm if needed.
 # Project Structure
   ![Alt Text](Images/ProjectStructure.jpeg)
-
+# Back-End
+  Used Java and Spring Boot for building the back-end server using Spring Data and Spring REST to allow communication with the front-end
+# Front-End
+  Built-in Flutter and communicates with the back-end using RESTful APIs.
+# Database
+  Database used is Postgress and the database schema is generated using Spring Data model entities
+  
 # This project was created by software engineers :
 
 ### Marwan Mostafa
@@ -50,9 +56,5 @@
 ### Omar Awad
 - [GitHub](https://github.com/omarawd7)
 - [LinkedIn](https://www.linkedin.com/in/omar-awad-bb9ab4211/)
-
-
-
-
-
+Under the supervision of Prof. Ahmed Shawky Moussa, Cairo University, Faculty of Computer and Artificial Intelligence., Computer Science department.
 
