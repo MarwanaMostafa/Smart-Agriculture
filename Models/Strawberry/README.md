@@ -44,4 +44,6 @@
       ax.text(0, 1.05, f"Class: {max_class_name}", transform=ax.transAxes, fontsize=12)
       ax.text(0, 1.1, f"Confidence: {max_confidence:.2f}", transform=ax.transAxes, fontsize=12)
       plt.show()
-  ```
+    ```
+ - Finally output is :
+   ![Alt Text](Images/output.png)
