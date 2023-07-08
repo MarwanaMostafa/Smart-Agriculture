@@ -18,3 +18,13 @@
  overall management and control of strawberry diseases. By providing an automated and reliable method for disease detection, this technology assists farmers 
  in making informed decisions, optimizing their farming practices, and ultimately ensuring the health and productivity of their strawberry crops.
  
+# How to run 
+```
+sadfasdfasd
+sadf
+asdf
+asdfa
+sdf
+asdfasdf
+asdf
+```
