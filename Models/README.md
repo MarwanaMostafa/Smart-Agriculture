@@ -18,7 +18,7 @@
        6. Provide a cost-effective solution that can be deployed in a variety of settings, including small-scale farms and large commercial operations.
   - The ultimate goal of this project is to help farmers identify and manage plant diseases more effectively, leading to increased crop yields, reduced losses, and improved food security.
 # Platform Features
-  The app allows farmers to do the following:
+- The app allows farmers to do the following:
     1- Sign up and login to the system
     2- Add new farm  
     3- Show all farms
