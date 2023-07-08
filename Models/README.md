@@ -19,13 +19,16 @@
   - The ultimate goal of this project is to help farmers identify and manage plant diseases more effectively, leading to increased crop yields, reduced losses, and improved food security.
 # Platform Features
   - The app allows farmers to do the following:
-       1- Sign up and log in to the system
-       2- Add a new farm  
-       3- Show all farms
-       4- Analyze a specific farm and show its history to keep track  
-       5- Take an image to detect if there are diseases or not. 
-       6- Upload an image to detect if there are diseases or not.
-       7- Perform real-time detection to check a large part of the farm if needed.
-    
+       1. Sign up and log in to the system
+       2. Add a new farm  
+       3. Show all farms
+       4. Analyze a specific farm and show its history to keep track  
+       5. Take an image to detect if there are diseases or not. 
+       6. Upload an image to detect if there are diseases or not.
+       7. Perform real-time detection to check a large part of the farm if needed.
+# Project Structure
+
+       ![Alt Text](Images/ProjectStructure.jpeg)
+
 
 
