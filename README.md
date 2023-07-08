@@ -56,5 +56,5 @@
 ### Omar Awad
 - [GitHub](https://github.com/omarawd7)
 - [LinkedIn](https://www.linkedin.com/in/omar-awad-bb9ab4211/)
-Under the supervision of Prof. Ahmed Shawky Moussa, Cairo University, Faculty of Computer and Artificial Intelligence., Computer Science department.
+### Under the supervision of Prof. Ahmed Shawky Moussa, Cairo University, Faculty of Computer and Artificial Intelligence., Computer Science department.
 
