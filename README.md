@@ -33,7 +33,7 @@
 # Front-End
   Built-in Flutter and communicates with the back-end using RESTful APIs.
 # Database
-  Database used is Postgress and the database schema is generated using Spring Data model entities
+  The database used is PostgreSQL and the database schema is generated using Spring Data model entities
   
 # This project was created by software engineers :
 
